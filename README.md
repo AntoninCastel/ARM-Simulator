@@ -12,10 +12,10 @@ Les opérations prises en comptes sont:
 - Toutes les opérations arithmétiques et leurs déclinaisons (***add***, ***sub***).
 
 # Utilisation 
-./arm-simulator    // Pour lancer le simulateur ARM, celui çi va attendre la connexion d'un client gdb.
+./arm-simulator    // Pour lancer le simulateur ARM, celui çi va attendre la connexion d'un client gdb.  
 
-arm-elf-gdb        // Lancement du client gdb
-file exemple.txt
-target remote localhost:<port donné par le simulateur>
-load
-.
+arm-elf-gdb        // Lancement du client gdb  
+file exemple.txt  
+target remote localhost:<port donné par le simulateur>  
+load  
+.  
